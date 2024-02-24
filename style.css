@@ -2,9 +2,12 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-
+    
 }
 
+body {
+    overflow-x: hidden;
+}
 .navbar {
     --bs-navbar-toggler-border-color: white !important;
 
@@ -31,6 +34,7 @@
     flex-wrap: wrap;
     background-color: #f2ce52;
     width: 100%;
+    overflow-x: hidden;
 
 }
 
@@ -44,6 +48,9 @@
     animation-duration: 2s;
 }
 
+.spacer{
+    height: 50px;
+}
 
 .section1-right-text {
 
@@ -88,6 +95,7 @@
 }
 
 .middle-text {
+    overflow-x: hidden;
 
     margin: 150px 0px;
     text-align: center;
@@ -107,13 +115,11 @@
     height: 1000px;
 }
 
-body {
-    overflow-x: hidden;
-}
 
 
 
 .middle-animated-cards {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,6 +135,7 @@ body {
 .sec2 {
     width: 80%;
     display: flex;
+    overflow-x: hidden;
 
 }
 
@@ -174,6 +181,7 @@ body {
 
 
 .sec3 {
+    overflow-x: hidden;
     width: 80%;
     /* height: 960px; */
     display: flex;
@@ -226,6 +234,7 @@ body {
 
 
 .sec4 {
+    overflow-x: hidden;
     width: 80%;
     /* height: 960px; */
     display: flex;
@@ -278,12 +287,11 @@ body {
 
 
 
-
-
-
-
-
 @media (max-width:768px) {
+
+    body {
+        overflow-x: hidden;
+    }
 
 
 
@@ -316,9 +324,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-
-       
+        overflow-x: hidden;
 
     }
 
@@ -345,6 +351,7 @@ body {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        overflow-x: hidden;
 
 
     }
@@ -365,12 +372,10 @@ body {
 
 
     .sec4 {
-        
         display: flex;
         flex-direction: column;
         align-items: center;
-
-
+        overflow-x: hidden;
     }
 
 
@@ -392,8 +397,15 @@ body {
 
 }
 
-/* Mobile view  */
+
 @media only screen and (max-width:480px) {
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+
     .section1-container {
         display: flex;
         flex-direction: column;
@@ -412,10 +424,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-
-       
-
+        overflow-x: hidden;
     }
 
 
@@ -441,9 +450,7 @@ body {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-
-
-       
+        overflow-x: hidden;
 
     }
 
@@ -472,10 +479,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-
-       
-
+        overflow-x: hidden;
     }
 
 
