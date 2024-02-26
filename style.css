@@ -152,6 +152,7 @@ body {
     height: 380px;
    
     animation-duration: 2s;
+   
 
 
     background-image: url(sec2-pic.jpg);
@@ -224,11 +225,11 @@ body {
 
 
 .sec3-text button {
+    border: 1px solid white;
     border-radius: 30px;
     width: 180px;
     height: 50px;
     margin-top: 20px;
-    border-color: white;
     color: white;
     background-color: transparent;
 }
@@ -291,6 +292,74 @@ body {
     border: none;
 
 }
+
+.sec5{
+    
+    height: 477px;
+    background-color: #34365a;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* .sec5 h1{
+    margin-bottom: 20px;
+
+}
+.sec5 p{
+    margin-bottom: 25px;
+} */
+
+
+
+.left-btn{
+    border: 1px solid white !important;
+    border-radius: 30px !important;
+    width: 200px !important;
+    height: 50px;
+   margin-right: 10px;
+   border-color: white !important;
+   color: white !important;
+   background-color: transparent !important;
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+.left-btn:hover {
+    background-color: white !important;
+    color: rgb(15, 36, 70) !important;
+    border: none !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+
+.right-btn{
+    border-radius: 30px !important;
+    width: 200px !important;
+    height: 50px;
+    margin-left: 10px !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-color: white !important;
+    color: #34365a !important;
+    border: 1px solid white !important;
+    background-color: white !important;
+
+}
+
+.right-btn:hover {
+    background-color: #34365a !important;
+    color: rgb(255, 255, 255) !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.sec5 p{
+    max-width: 60ch;
+}
+
 
 
 
@@ -513,6 +582,23 @@ body {
         
         padding: 20px 10px 20px 10px;
         animation-duration: 2s;
+    }
+
+   
+
+    .sec-5-btn{
+        width: fit-content;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-btn{
+        margin-right: 0px !important;
+        margin: 10px 0px;
+
+    }
+    .right-btn{
+        margin-left: 0px !important;
     }
 
 
